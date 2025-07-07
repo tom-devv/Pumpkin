@@ -286,6 +286,10 @@ impl BlockPos {
         )
     }
 
+    pub fn add_pos(&self, pos: &BlockPos) -> Self {
+        self.add(pos.0.x, pos.0.y, pos.0.z)
+    }
+
     pub fn offset(&self, offset: Vector3<i32>) -> Self {
         BlockPos(self.0 + offset)
     }

@@ -11,6 +11,7 @@ pub mod composter;
 pub mod crafting_table;
 pub mod dirt_path;
 pub mod doors;
+pub mod enchanting_table;
 pub mod end_portal;
 pub mod end_portal_frame;
 pub mod farmland;
